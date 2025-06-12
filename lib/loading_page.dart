@@ -28,7 +28,7 @@ class LoadingPage extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 20),
-            Text('cargando...', style: TextTheme.of(context).titleSmall),
+            Text(message, style: TextTheme.of(context).titleSmall),
           ],
         ),
       ),
